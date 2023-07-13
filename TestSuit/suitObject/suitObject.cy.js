@@ -32,5 +32,41 @@ class practicePage
   {
     return cy.get('#alertbtn')
   }
+  hideField()
+  {
+    return cy.get('#hide-textbox')
+  }
+  showFiled()
+  {
+    return cy.get('#show-textbox')
+  }
+  hideShowField()
+  {
+    return cy.get('#displayed-text')
+  }
+  tableFixedName()
+  {
+    return cy.get('thead > tr > :nth-child(1)')
+  }
+  tableFixedPosition()
+  {
+    return cy.get('thead > tr > :nth-child(2)')
+  }
+  tableFixedCity()
+  {
+    return cy.get('thead > tr > :nth-child(3)')
+  }
+  tableFixedAmount()
+  {
+    return cy.get('thead > tr > :nth-child(4)')
+  }
+  fullTable()
+  {
+    return cy.get('.tableFixHead > #product')
+  }
+  mouseHover()
+  {
+    return cy.get('div.mouse-hover-content')
+  }
 }
 export default practicePage;
