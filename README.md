@@ -37,7 +37,7 @@ Should you use hyphens, camelCase, or under_scores in variable names?
 This is a question programmers often discuss. The answer depends on who you ask:
 Hyphens in HTML and CSS:
 HTML5 attributes can start with data- (data-quantity, data-price).
-CSS uses hyphens in property names (font-size).
+CSS uses hyphens in property names (font size).
 Underscores:
 Many programmers prefer to use underscores (date_of_birth), especially in SQL databases.
 Underscores are often used in PHP documentation.
