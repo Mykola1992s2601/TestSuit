@@ -1,4 +1,3 @@
-# Practice page
 JavaScript Coding Conventions
                                
                        Variable Names
