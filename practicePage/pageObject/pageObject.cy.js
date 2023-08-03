@@ -68,5 +68,9 @@ class practicePage
   {
     return cy.get('div.mouse-hover-content')
   }
+  homePage()
+  {
+    return cy.get('a > .btn')
+  }
 }
 export default practicePage;
