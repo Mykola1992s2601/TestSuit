@@ -1,6 +1,6 @@
 /// <reference types="Cypress" />
 import practicePage from "./suitObject/suitObject.cy"
-describe('Test Case 6', function() 
+describe('Hide field ', function() 
 {
  
 it('Hide the field',function() {
