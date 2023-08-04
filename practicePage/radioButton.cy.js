@@ -1,6 +1,6 @@
 /// <reference types="Cypress" />
 import practicePage from "./suitObject/suitObject.cy"
-describe('Test Case 1', function() 
+describe('Radio button', function() 
 {
  
 it('Check radio button',function() {
