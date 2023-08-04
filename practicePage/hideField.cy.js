@@ -1,14 +1,14 @@
 /// <reference types="Cypress" />
 import practicePage from "./suitObject/suitObject.cy"
-describe('Hide field ', function() 
-// check "Hide field functionality"
+describe('Test Case 9', function() 
 {
  
-it('Hide the field',function() {
- //Hide field
+it('Check Mousehover top button',function() {
+ //Check Mousehover top button
  const Practice = new practicePage()
 Practice.navigate()
-Practice.hideField().click()
-Practice.hideShowField().should('not.be.visible')
+Practice.mouseHover().scrollIntoView().invoke('show')
+cy.contains('Top').click()
+cy.url().should('include', 'top')
 }  )
 }  )
