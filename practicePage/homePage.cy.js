@@ -1,6 +1,6 @@
 /// <reference types="Cypress" />
 import practicePage from "./suitObject/suitObject.cy"
-describe('homepage', function() 
+describe('redirect to the home page', function() 
 {
  
 it('Check URL address',function() {
