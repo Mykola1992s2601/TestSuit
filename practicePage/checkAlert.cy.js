@@ -1,6 +1,6 @@
 /// <reference types="Cypress" />
 import practicePage from "./suitObject/suitObject.cy"
-describe('Test Case 5', function() 
+describe('Check alert functionality', function() 
 {
  
 it('Check alert',function() {

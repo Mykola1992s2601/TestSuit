@@ -1,6 +1,6 @@
 /// <reference types="Cypress" />
 import practicePage from "./suitObject/suitObject.cy"
-describe('Test Case 4', function() 
+describe('Check checkbox functionality', function() 
 {
  
 it('Select checkbox',function() {

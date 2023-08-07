@@ -1,9 +1,9 @@
 /// <reference types="Cypress" />
 import practicePage from "./suitObject/suitObject.cy"
-describe('Test Case 3', function() 
+describe('Check drop-down functionality', function() 
 {
  
-it('Check drop-down',function() {
+it('Chose drop-down option',function() {
  //Check drop-down
  const Practice = new practicePage()
 Practice.navigate()

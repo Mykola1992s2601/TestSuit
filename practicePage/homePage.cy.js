@@ -1,9 +1,9 @@
 /// <reference types="Cypress" />
 import practicePage from "./suitObject/suitObject.cy"
-describe('redirect to the home page', function() 
+describe('Check URL address of new page', function() 
 {
  
-it('Check URL address',function() {
+it('URL address',function() {
  //Check alert
  const Practice = new practicePage()
 Practice.navigate()

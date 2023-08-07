@@ -1,9 +1,9 @@
 /// <reference types="Cypress" />
 import practicePage from "./suitObject/suitObject.cy"
-describe('Hide field ', function() 
+describe('Check radio button', function() 
 // check "Hide field functionality"
 {   
-it('Hide the field',function() {
+it('Radio button',function() {
  //Hide field
  const Practice = new practicePage()
 Practice.navigate()

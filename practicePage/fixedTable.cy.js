@@ -1,6 +1,6 @@
 /// <reference types="Cypress" />
 import practicePage from "./suitObject/suitObject.cy"
-describe('Test Case 8', function() 
+describe('Check fixed table', function() 
 {
  
 it('Fixed table should be visible, calculate records',function() {

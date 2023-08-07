@@ -1,6 +1,6 @@
 /// <reference types="Cypress" />
 import practicePage from "./suitObject/suitObject.cy"
-describe('Test Case 2', function() 
+describe('Check dynamic drop-down functionality', function() 
 {
  
 it('Select country',function() {
