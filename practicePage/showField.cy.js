@@ -1,6 +1,6 @@
 /// <reference types="Cypress" />
 import practicePage from "./suitObject/suitObject.cy"
-describe('Test Case 7', function() 
+describe('Check show field functionality', function() 
 {
  
 it('Show field',function() {
