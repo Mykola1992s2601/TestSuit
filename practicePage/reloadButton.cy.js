@@ -1,9 +1,9 @@
 /// <reference types="Cypress" />
 import practicePage from "./suitObject/suitObject.cy"
-describe('Test Case 10', function() 
+describe('Check reload buton', function() 
 {
  
-it('Check Mousehover reload button',function() {
+it('Reload button',function() {
  //Check Mousehover reload button
  const Practice = new practicePage()
 Practice.navigate()

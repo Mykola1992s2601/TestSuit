@@ -1,9 +1,9 @@
 /// <reference types="Cypress" />
 import practicePage from "./suitObject/suitObject.cy"
-describe('Test Case 9', function() 
+describe('Check hide field functionality', function() 
 {
  
-it('Check Mousehover top button',function() {
+it('Hide field',function() {
  //Check Mousehover top button
  const Practice = new practicePage()
 Practice.navigate()
