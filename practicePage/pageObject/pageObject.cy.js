@@ -72,5 +72,9 @@ class practicePage
   {
     return cy.get('a > .btn')
   }
+  blinkingText()
+  {
+    return cy.get('.blinkingText')
+  }
 }
 export default practicePage;
